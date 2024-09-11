@@ -98,7 +98,7 @@ A single BC-MADR MUST, at a minimum, contain information about:
 
 ##### 2.3.3.1 What is being decided
 
-A short description (approximately less than ~12 words) of the the driving reason for the decision being made MUST be written as the main title of the BC-MADR.
+A short description of the the driving reason for the decision being made MUST be written as the main title of the BC-MADR.
 
 ⚠TBD: What should our maximum word limit for a short description be? If we should even have a limit at all?
 
