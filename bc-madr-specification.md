@@ -1,4 +1,4 @@
-# BC-MADR Specification 0.1
+# BC-MADR Specification v0.1
 
 ## 1.1 Terminology 
 
