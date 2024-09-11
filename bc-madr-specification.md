@@ -47,7 +47,7 @@ BC-MADRs and their supporting systems MUST fulfill several fundamental pillars:
 		`0001-use-the-bc-madr-decision-format-in-bc-gov.md`:
 
 		```markdown
-		[//]: # (v0.1 bc-madr)
+		[//]: # (bc-madr v0.1 )
 
 		# Use the BC-MADR decision format in BC Gov
 
@@ -161,10 +161,10 @@ It is recommended to deploy versioned copies of BC-MADRs in a more human-consuma
 
 4. The version MUST be written in the form:
 
-	`[//]: # (v<version here> bc-madr)`
+	`[//]: # (bc-madr v<version here>)`
 
 	Example:
 
-	`[//]: # (v0.1 bc-madr)`
+	`[//]: # (bc-madr v0.1)`
 
 5. The version line is NOT REQUIRED to have an empty line below it.

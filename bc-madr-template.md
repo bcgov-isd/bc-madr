@@ -1,4 +1,4 @@
-[//]: # (v0.1 bc-madr)
+[//]: # (bc-madr v0.1)
 
 # [short title of solved problem and solution]
 
