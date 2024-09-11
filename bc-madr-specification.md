@@ -133,9 +133,35 @@ A BC-MADR must have one of the following statuses:
 
 A BC-MADR MUST be considered valid and active when it has gone through review with relevant project stakeholders who have all given their explicit approval to change its Status to "Accepted."
 
-### 2.3 Accessible and "low friction"
+### 2.3 Accessibility and "low friction"
 
-It is RECOMMENDED to deploy versioned copies of BC-MADRs in a more human-consumable form to any number of destinations, but the original files themselves MUST be kept according to Section 2.1.
+"Accessibility" in this context refers to barriers to access to a project's BC-MADRs by technical and non-technical project stakeholders (or lack of barriers).
+
+"Low friction" refers to how easy it is to create, debate, PR review, modify, commit, and organize BC-MADRs.
+
+With both of those concepts in mind, the source BC-MADR Markdown files don't allow for a pleasurable reading experience. Because of this, it is RECOMMENDED to deploy versioned sets of BC-MADRs in a more human-consumable form to any number of destinations. See [Section 3. Tooling](#tooling).
+
+> Note: the original source BC-MADRs themselves MUST continue to be kept according to [Section 2.1 Storage and proximity](#2.1-storage-and-proximity).
+
+#### 2.3.1 Accessibility
+
+Technical stakeholders MUST have access to create, modify, and review the source BC-MADR files as per team policies.
+
+Non-technical project stakeholders MUST be able to view their project's set of BC-MADRs without requiring the same knowledge and access as technical project stakeholders.
+
+A project's set of BC-MADRs MUST be written in a way that, via automated tooling, are exportable as feasible:
+
+- Generate a static website with markdown rendering
+
+- Export to a format to be added to an existing documentation system
+
+- or any other export format deemed acceptable by the project stakeholders.
+
+#### 2.3.2 "Low friction"
+
+To make technical project stakeholders' lives easier, a BC-MADR Template that matches the current BC-MADR Specification will be available for use.
+
+This BC-MADR Template includes descriptive Markdown comments on how to use the template—all you need to do is fill in the blanks and follow your team's process.
 
 ## 3. Tooling
 
