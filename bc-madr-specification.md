@@ -167,6 +167,10 @@ This BC-MADR Template includes descriptive Markdown comments on how to use the t
 
 ⚠Coming soon
 
+### 3.1 WCAG
+
+⚠TBD: What level of WCAG compliance should we require or recommend?
+
 ## 4. Versioning
 
 ### 4.1 The specification
