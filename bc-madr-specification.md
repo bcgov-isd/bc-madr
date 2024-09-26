@@ -66,7 +66,9 @@ BC-MADRs MAY contain code examples if they are relevant to a decision and are no
 
 #### 2.2.1 Significant decisions
 
-If the answer to any of the following questions is "Yes," create an ADR to record the decision.
+If the answer to any of the following questions is "Yes," it is REQUIRED create an BC-MADR to record the decision.
+
+- Does this decision modify or affect the validity of a previously-accepted decision record? (If yes, don't forget to Supersede the previous decision!)
 
 - Does this decision affect or change the architecture of the project?
 
@@ -116,18 +118,18 @@ BC-MADRs MUST include any potential negative consequences of a decision: any pit
 
 Note: it is acceptable to choose an option with issues as long as its positive consequences are worth it, and is approved by all relevant stakeholders.
 
-##### 2.2.3.5 What is the status of the decision
+##### 2.2.3.5 How to determine the status of a decision
 
 A BC-MADR must have one of the following statuses:
 
-- Draft
-- Proposed
-- Rejected
-- Accepted
-- Deprecated
-- Superseded by [xyz](iiii-xyz.md)
-
-⚠TODO: Go into detail about what each status means and when they apply
+| Status | Description | Usage |
+|---|---|---|
+| Draft | A BC-MADR is being actively written and should not be considered official or ready for debate. | Would typically only be used if other team members help refine using a forum, like GitHub Pull Request comments. If you draft a BC-MADR over instant messaging, you probably wouldn't commit it until it's ready as a proposal.
+| Proposed | A draft BC-MADR has been completed and is ready for debate and approval from relevant project stakeholders. | If you haven't already done so for the draft, make a Pull Request. Request relevant project stakeholders to provide feedback (if they haven't already) and their approval or rejection. |
+| Rejected | A proposed BC-MADR did not satisfy relevant project stakeholders and its contents have been permanently refused. | Modify the Pull Request title to include "Rejected". Complete and merge the Pull Request with the BC-MADR as Rejected so it is kept for future reference.
+| Accepted | A proposed BC-MADR was demeed satisfactory to relevant project stakeholders and officially describes a decision that was made. | Modify the Pull Request title to include "Accepted". Complete and merge the Pull Request with the BC-MADR as Accepted so it is kept for future reference. |
+| Deprecated | An accepted BC-MADR is no longer correct or relevant to the current project and has not been replaced with a new decision record. | After confirming with relevant project stakeholders, make a Pull Request with "Deprecated" in its title and complete and merge. This would be a rare occurrence, since a decision record would typically be superseded instead. |
+| Superseded by [xyz](iiii-xyz.md) | The same as Deprecated, except the BC-MADR has been replaced with a new decision record and links to it. | As part of the proposal Pull Request for a new decision, modify the status of the previous decision it is replacing and add a relative link pointing to the new decision record. If this new decision is rejected, revert the changes to the older decision record's status. If the previous decision record still isn't correct or relevant to the current project, Deprecate it. |
 
 ##### 2.2.3.6 When was the decision approved and finalized
 
@@ -149,7 +151,7 @@ Technical stakeholders MUST have access to create, modify, and review the source
 
 Non-technical project stakeholders MUST be able to view their project's set of BC-MADRs without requiring the same knowledge and access as technical project stakeholders.
 
-A project's set of BC-MADRs MUST be written in a way that, via automated tooling, are exportable as feasible:
+A project's set of BC-MADRs MUST be written in a way that, via automated tooling, are as exportable as feasible:
 
 - Generate a static website with markdown rendering
 
