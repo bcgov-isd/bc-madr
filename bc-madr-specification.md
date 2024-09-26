@@ -1,4 +1,4 @@
-# BC-MADR Specification v0.1
+# BC-MADR Specification v0.1.0
 
 ## 1.1 Terminology 
 
@@ -175,7 +175,7 @@ This BC-MADR Template includes descriptive Markdown comments on how to use the t
 
 ### 4.1 The specification
 
-⚠TBD: Please discuss!
+The BC-MADR specification versioning scheme will follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.html).
 
 ### 4.2 Templates
 
