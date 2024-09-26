@@ -191,6 +191,6 @@ The BC-MADR specification versioning scheme will follow [Semantic Versioning 2.0
 
 	Example:
 
-	`[//]: # (bc-madr v0.1)`
+	`[//]: # (bc-madr v0.1.0)`
 
 5. The version line is NOT REQUIRED to have an empty line below it.
