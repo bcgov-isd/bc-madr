@@ -30,9 +30,7 @@ BC-MADRs and their supporting systems MUST fulfill several fundamental pillars:
 
 	- REQUIRED to save as a Markdown file. (`this-is-kebab-naming.md`)
 
-	- REQUIRED Use an incremental scheme in the filename.
-
-	- RECOMMENDED to use an integer auto-increment scheme, e.g.
+	- REQUIRED to use an integer auto-increment scheme, e.g.
 
 		```bash
 		0001-this-is-kebab-naming.md
