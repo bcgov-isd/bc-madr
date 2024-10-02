@@ -112,11 +112,23 @@ BC-MADRs MUST include what was ultimately chosen.
 
 BC-MADRs MUST also include contextual information about other options that were considered and not chosen. If no other options were considered, it MUST be explicitly written that "No other options were considered."
 
-##### 2.2.3.4 Potential negative consequences
+##### 2.2.3.4 Potential consequences
 
-BC-MADRs MUST include any potential negative consequences of a decision: any pitfalls, gotchas, deficiencies that must be dealt with or worked around, or other such issues.
+BC-MADRs SHOULD include relevant positive consequences of a decision: how the decision is beneficial, new opportunities it may allow for in the future, or other such positive notes.
 
-Note: it is acceptable to choose an option with issues as long as its positive consequences are worth it, and is approved by all relevant stakeholders.
+BC-MADRs SHOULD include any relevant potential negative consequences of a decision: any pitfalls, gotchas, deficiencies that must be dealt with or worked around, or other such issues.
+
+If both positive and negative consequences are omitted, it is REQUIRED to write "Positive and negative consequences were not explored."
+
+Otherwise:
+
+If positive consequences are omitted, it is REQUIRED to write "Positive consequences were not explored."
+
+or,
+
+If negative consequences are omitted, it is REQUIRED to write "Negative consequences were not explored."
+
+Note: it is acceptable to choose an option with negative consequences as long as its positive consequences are worth it and approved by all relevant stakeholders.
 
 ##### 2.2.3.5 How to determine the status of a decision
 
