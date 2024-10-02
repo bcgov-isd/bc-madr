@@ -56,6 +56,8 @@ BC-MADRs and their supporting systems MUST fulfill several fundamental pillars:
 
 A given set of BC-MADRs MUST only belong to a single project in order to maintain a single source of truth.
 
+If a project is split into multiple repositories (e.g. a suite of components), each of those repositories MUST contain its own set of BC-MADRs.
+
 All significant decisions made for a project's technical direction MUST be recorded in a BC-MADR.
 
 BC-MADRs MUST NOT contain direct references to the project's source code, as these references are not enforced by tools like compilers. 
