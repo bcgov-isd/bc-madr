@@ -52,4 +52,5 @@ Fantastic! Open a GitHub discussion about what you're thinking and let's chat.
 
 ## Special thanks
 
-- https://adr.github.io/ for compiling ADR information and for igniting the spark for this journey
+- [adr.github.io](https://adr.github.io/) for compiling ADR information and for igniting the spark for this journey
+- [Markdown Architectural Decision Records (MADR)](https://github.com/adr/madr) for their effort in creating and refining the ADR template this repo adapts
