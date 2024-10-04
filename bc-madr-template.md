@@ -24,6 +24,7 @@
 * {title of option 1}
 * {title of option 2}
 * {title of option 3}
+* No other options were considered. {REQUIRED if only one option is listed, OPTIONAL otherwise}
 * ... <!-- numbers of options can vary -->
 
 ## Decision Outcome
