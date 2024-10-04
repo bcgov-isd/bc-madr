@@ -1,4 +1,4 @@
-[//]: # (bc-madr v0.1.0)
+[//]: # (bc-madr v0.2.0)
 <!-- modified MADR 4.0.0 -->
 
 # {short title, representative of solved problem and found solution}
